@@ -1,5 +1,27 @@
 html {
-    height: 100%;
+    height: 130vh;
     width: 100%;
-  }
-  
+}
+
+body {
+  padding: 30px;
+  background: linear-gradient(to bottom right, #d1dcde, #04323a);
+}
+
+/* Haz que todos los elementos H1 sean de color verde */
+h1 {
+  color: green;
+}
+/* Haz que la clase sea "azul" y aplica el color azul al texto. */
+.azul {
+  color: blue;
+}
+/* Haga una identificación igual a "rojo" y aplique el color rojo al texto */
+#rojo {
+  color: red;
+}
+
+#encabezadoMarron:hover {
+  color: #d1dcde;
+  cursor: pointer;
+}
